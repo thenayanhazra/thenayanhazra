@@ -2,7 +2,7 @@
 
 Security leader. I work where AI systems meet real infrastructure, and where risk has to be explained to a board as clearly as it is fixed in code.
 
-The repositories below are a governance framework and the working tools that test it. Each one began as a question I wanted answered with evidence rather than opinion.
+The repositories below are a governance framework, the working tools that test it, and a guide for people building a career in the field. Each one began as a question I wanted answered with evidence rather than opinion.
 
 ## Selected work
 
@@ -13,6 +13,7 @@ The repositories below are a governance framework and the working tools that tes
 | [**MCP Adversarial Harness**](https://github.com/thenayanhazra/mcp-adversarial-harness) | Can a tool server talk an AI agent into acting against its user? Probes MCP servers for prompt injection, tool poisoning and confused-deputy attacks, with SARIF output. | Python |
 | [**agentlint**](https://github.com/thenayanhazra/agentlint) | Is the instruction file your agent just loaded safe to trust? A static analyser for SKILL.md, AGENTS.md, IDE rules and MCP configs that catches hidden Unicode, override attempts and exfiltration patterns. | Rust · GitHub Action |
 | [**LLM Prompt Injection Fuzzer**](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer) | How often does this model follow an attacker instead of its instructions? Runs 42 injection techniques across six categories and reports bypass rates per category. | Python |
+| [**Security Career Paths**](https://github.com/thenayanhazra/security-career-paths) | Where should someone start in security, and how do they grow? Sixteen paths across defence, offence, engineering, governance and AI security, with entry routes, progression, certifications and free resources for beginners and intermediates. | Guide |
 
 ## What I focus on
 
