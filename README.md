@@ -2,12 +2,13 @@
 
 Security leader. I work where AI systems meet real infrastructure, and where risk has to be explained to a board as clearly as it is fixed in code.
 
-The repositories below are a governance framework, the working tools that test it, and a guide for people building a career in the field. Each one began as a question I wanted answered with evidence rather than opinion.
+The repositories below are an assessment kit, the governance framework it reports against, the tools it runs, and a guide for people building a career in the field. Each one began as a question I wanted answered with evidence rather than opinion.
 
 ## Selected work
 
 | Project | What it answers | Stack |
 |---|---|---|
+| [**AI Security Assessment**](https://github.com/thenayanhazra/ai-security-assessment) | Is this AI agent platform safe to run, and what should we fix first? One command runs the four tools below against infrastructure, instruction files, tool servers and the model, and produces a single executive report with a rating, top risks and the governance controls affected. | Python |
 | [**AI Security Governance**](https://github.com/thenayanhazra/ai-security-governance) | How should an organisation govern AI that takes actions, and how does a board know it is working? A risk framework, 34 controls mapped to NIST AI RMF, ISO 42001, the EU AI Act, OWASP and MITRE ATLAS, a board reporting pack and a supply-chain policy for MCP servers. | Framework · Policy |
 | [**AI Threat Modelling Engine**](https://github.com/thenayanhazra/ai-threat-modelling-engine) | What can go wrong in this architecture, and what should we fix first? Turns diagrams and infrastructure-as-code into STRIDE findings, attack paths, MITRE ATT&CK mappings and an executive PDF. | Python · FastAPI |
 | [**MCP Adversarial Harness**](https://github.com/thenayanhazra/mcp-adversarial-harness) | Can a tool server talk an AI agent into acting against its user? Probes MCP servers for prompt injection, tool poisoning and confused-deputy attacks, with SARIF output. | Python |
